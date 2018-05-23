@@ -36,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/php/src/Controller/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#34#81#0#PHP" expanded="true" />
               </folding>
@@ -59,11 +59,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/php/src/Controller/HomeController.php" />
         <option value="$PROJECT_DIR$/php/template/twyf/home.html" />
         <option value="$PROJECT_DIR$/php/src/Controller/home.php" />
         <option value="$PROJECT_DIR$/php/config/routes.yaml" />
         <option value="$PROJECT_DIR$/php/var/cache/dev/ContainerLKnJbmj/getHomeService.php" />
+        <option value="$PROJECT_DIR$/php/src/Controller/HomeController.php" />
       </list>
     </option>
   </component>
@@ -196,6 +196,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../movies-sf" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -229,16 +230,15 @@
       <option name="presentableId" value="Default" />
       <updated>1527000914963</updated>
       <workItem from="1527000917461" duration="2761000" />
-      <workItem from="1527059245041" duration="3384000" />
+      <workItem from="1527059245041" duration="4183000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6145000" />
+    <option name="totallyTimeSpent" value="6944000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1182" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -246,7 +246,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4116638" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25986278" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
@@ -320,7 +320,7 @@
     <entry file="file://$PROJECT_DIR$/php/src/Controller/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#34#81#0#PHP" expanded="true" />
           </folding>
