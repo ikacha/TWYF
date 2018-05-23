@@ -37,8 +37,11 @@
       <excludeFolder url="file://$MODULE_DIR$/php/vendor/symfony/polyfill-mbstring" />
       <excludeFolder url="file://$MODULE_DIR$/php/vendor/symfony/process" />
       <excludeFolder url="file://$MODULE_DIR$/php/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/php/vendor/symfony/twig-bridge" />
+      <excludeFolder url="file://$MODULE_DIR$/php/vendor/symfony/twig-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/php/vendor/symfony/web-server-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/php/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/php/vendor/twig/twig" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
