@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb42b5a-6432-43da-b664-b666be1f032a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/twyf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/twyf.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/empty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/.env.dist" beforeDir="false" afterPath="$PROJECT_DIR$/php/.env.dist" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/php/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/php/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/src/Controller/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/php/symfony.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/template/twyf/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twyf logo.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twyf.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,11 +25,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/public/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/public/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/config/routes.yaml">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/php/bin/console">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
@@ -36,8 +64,17 @@
       <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/templates/home/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+            <state relative-caret-position="270">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/templates/home/home.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -45,10 +82,10 @@
       <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/src/Controller/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="300">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
-                <element signature="e#298#320#0#PHP" expanded="true" />
+                <element signature="e#34#81#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,8 +96,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -77,9 +114,11 @@
         <option value="$PROJECT_DIR$/php/var/cache/dev/ContainerLKnJbmj/getHomeService.php" />
         <option value="$PROJECT_DIR$/php/templates/twyf/home.html" />
         <option value="$PROJECT_DIR$/php/templates/base.html.twig" />
-        <option value="$PROJECT_DIR$/php/src/Controller/HomeController.php" />
-        <option value="$PROJECT_DIR$/php/templates/home/index.html.twig" />
         <option value="$PROJECT_DIR$/php/public/css/style.css" />
+        <option value="$PROJECT_DIR$/php/templates/home/index.html.twig" />
+        <option value="$PROJECT_DIR$/php/templates/home/home.html.twig.html" />
+        <option value="$PROJECT_DIR$/php/src/Controller/HomeController.php" />
+        <option value="$PROJECT_DIR$/php/templates/home/home.html.twig" />
       </list>
     </option>
   </component>
@@ -132,11 +171,26 @@
       <path value="$PROJECT_DIR$/php/vendor/symfony/twig-bridge" />
       <path value="$PROJECT_DIR$/php/vendor/symfony/twig-bundle" />
       <path value="$PROJECT_DIR$/php/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/php/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/php/vendor/zendframework/zend-eventmanager" />
+      <path value="$PROJECT_DIR$/php/vendor/zendframework/zend-code" />
+      <path value="$PROJECT_DIR$/php/vendor/ocramius/proxy-manager" />
+      <path value="$PROJECT_DIR$/php/vendor/ocramius/package-versions" />
+      <path value="$PROJECT_DIR$/php/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/php/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/php/vendor/symfony/orm-pack" />
+      <path value="$PROJECT_DIR$/php/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/php/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/php/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/php/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/php/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/php/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/php/vendor/doctrine/instantiator" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="1129" />
+    <option name="width" value="1034" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -212,6 +266,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="fr.adrienbrault.idea.symfony2plugin.ui.TwigSettingsForm" />
   </component>
   <component name="RecentsManager">
@@ -248,7 +303,10 @@
       <workItem from="1527000917461" duration="2761000" />
       <workItem from="1527059245041" duration="15501000" />
       <workItem from="1527081003672" duration="269000" />
-      <workItem from="1527081317185" duration="4227000" />
+      <workItem from="1527081317185" duration="5991000" />
+      <workItem from="1527146461230" duration="3404000" />
+      <workItem from="1527165224342" duration="2847000" />
+      <workItem from="1527171751558" duration="611000" />
     </task>
     <task id="LOCAL-00001" summary="testing phpstorm push">
       <created>1527063836807</created>
@@ -261,13 +319,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22758000" />
+    <option name="totallyTimeSpent" value="31384000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1129" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="1034" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23989218" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16797642" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32901832" />
@@ -276,13 +334,14 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32897604" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Command Line Tools Console" order="8" visible="true" weight="0.32897604" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32897604" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -298,9 +357,117 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="testing phpstorm push" />
     <MESSAGE value="Link done, creating base html." />
-    <option name="LAST_COMMIT_MESSAGE" value="Link done, creating base html." />
+    <MESSAGE value="another commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="another commit" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/php/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/config/routes.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/templates/home/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/templates/home/home.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/src/Controller/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#34#81#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/bin/console">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/templates/home/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/templates/home/home.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/src/Controller/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#34#81#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/templates/home/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/src/Controller/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#34#81#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/php/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -320,7 +487,7 @@
         <state relative-caret-position="285">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
-            <element signature="e#298#320#0#PHP" expanded="true" />
+            <element signature="e#34#81#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -344,7 +511,7 @@
         <state relative-caret-position="285">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
-            <element signature="e#298#320#0#PHP" expanded="true" />
+            <element signature="e#34#81#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -368,6 +535,45 @@
     <entry file="file://$PROJECT_DIR$/php/var/cache/dev/ContainerLKnJbmj/getHomeService.php" />
     <entry file="file://$PROJECT_DIR$/php/templates/base.html.twig" />
     <entry file="file://$PROJECT_DIR$/php/templates/twyf/index.html.twig" />
+    <entry file="file://$PROJECT_DIR$/php/templates/home/home.html.twig.html" />
+    <entry file="file://$PROJECT_DIR$/php/src/Controller/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#34#81#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/templates/home/home.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/templates/home/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/php/config/routes.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -375,27 +581,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/src/Controller/HomeController.php">
+    <entry file="file://$PROJECT_DIR$/php/bin/console">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#298#320#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/templates/home/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/public/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        <state relative-caret-position="525">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>

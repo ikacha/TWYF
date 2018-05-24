@@ -40,6 +40,21 @@
       <path value="$PROJECT_DIR$/php/vendor/symfony/twig-bridge" />
       <path value="$PROJECT_DIR$/php/vendor/symfony/twig-bundle" />
       <path value="$PROJECT_DIR$/php/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/php/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/php/vendor/zendframework/zend-eventmanager" />
+      <path value="$PROJECT_DIR$/php/vendor/zendframework/zend-code" />
+      <path value="$PROJECT_DIR$/php/vendor/ocramius/proxy-manager" />
+      <path value="$PROJECT_DIR$/php/vendor/ocramius/package-versions" />
+      <path value="$PROJECT_DIR$/php/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/php/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/php/vendor/symfony/orm-pack" />
+      <path value="$PROJECT_DIR$/php/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/php/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/php/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/php/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/php/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/php/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/php/vendor/doctrine/instantiator" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
