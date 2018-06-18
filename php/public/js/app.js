@@ -5,14 +5,8 @@ $(document).ready(function(){
         $("#signuppage").show();
         $("#menupage").hide();
         $("#connexionpage").hide();
+
     });
-
-    $("#cnx-btn").click(function(e){
-        e.preventDefault();
-        $("#menupage").show();
-        $("#connexionpage").hide();
-        $("#signuppage").hide();
-
 });
 
 $(document).ready(function(){
@@ -23,6 +17,18 @@ $(document).ready(function(){
         $("#signuppage").hide();
     });
 });
+
+$(document).ready(function(){
+    $("#deco-btn").click(function(e){
+        e.preventDefault();
+        $("#menupage").hide();
+        $("#connexionpage").show();
+        $("#signuppage").hide();
+    });
+});
+
+
+
 
 /*
 
