@@ -1,0 +1,97 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+    color: #525252;
+	background-color: #EFEFF0;
+	margin-top: 0;
+}
+
+#logo {
+	align-content: center;
+	opacity: 0.5; 
+}
+
+/************************************/
+/**************Home Menu*************/
+/************************************/
+
+#imgmenu{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+
+}
+
+.padding {
+	opacity: 0.85;
+	padding: 20px 20px;
+
+}
+
+.padding:hover {
+	opacity: 1;
+}
+
+object {
+	display: none;
+}
+
+
+/************************************/
+/***********connexionpage************/
+/************et signuppage**********/
+
+.formulaire {
+	margin: 5px 5px;
+	font-family: 'Ubuntu';
+	width: 35%;
+	min-width: 350px;
+}
+
+.formcss {
+	margin: 5px 5px;
+	font-family: 'Ubuntu';
+	width: 35%;
+	min-width: 350px;
+	height: 50px;
+	border-radius: 10px 10px;
+	box-shadow: 3px 3px #EB3535;
+	text-align: center;
+	color: #EB3535;
+}
+
+form {
+	font-size: 20px;
+	text-align: center;
+}
+
+form input {
+	opacity: 0.85;
+	margin-top: 20px;
+	border-style: none;
+}
+
+form input:hover {
+	opacity: 1;
+}
+
+#errorlog {
+	color: #EB3535;
+	display: none;
+	
+}
+
+#signuppage, #menupage{
+	display:none;
+}
+
+/************************************/
+/************Media Queries***********/
+/************************************/
+
+
+@media screen and (max-width: 640px) {
+.formulaire {
+	width: 90%;
+	max-width: 90%;
+	}
+}
