@@ -4,6 +4,8 @@
     <title>TWYF</title>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+
 
 </head>
 <body>
@@ -18,7 +20,7 @@
         <input class="formcss" type="text" name="name"  placeholder="Votre Pseudo"><br>
         <label class="formulaire">Mot de Passe :</label><br>
         <input class="formcss" type="password" name="password" placeholder="Votre Mot de Passe"><br>
-        <input type="image" src="img/connexion.png" alt="Submit" id="#cnx-btn"><br>
+        <input type="image" src="img/connexion.png" alt="Submit" id="cnx-btn"><br>
         <input type="image" src="img/signup.png" name="sign" alt="Submit" id="sign-btn"><br>
         <script type="text/javascript" src="app.js"></script>
     </form>
@@ -26,7 +28,7 @@
 </section>
 
 <section id="signuppage">
-    <form>
+    <form method="post" enctype="multipart/form-data">
         <label class="formulaire">Pseudo :</label><br>
         <input class="formcss" type="text" name="name" placeholder="Votre Pseudo"><br>
         <label class="formulaire">Nom :</label><br>
@@ -37,30 +39,38 @@
         <input class="formcss" type="text" name="name" placeholder="Votre e-m@il"><br>
         <label class="formulaire">Mot de Passe :</label><br>
         <input class="formcss" type="password" name="password" placeholder="Votre Mot de Passe"><br>
-        <input type="image" src="img/creer.png" alt="Submit" id="#create-btn"><br>
+        <input type="image" src="img/creer.png" alt="Submit" id="create-btn"><br>
     </form>
 </section>
 
 
 <section id="menupage">
     <div id="imgmenu">
-        <div class="padding">
-            <img src="img/scanner.png">
-        </div>
-        <div class="padding">
-            <img src="img/dicter.png">
-        </div>
-        <div class="padding">
-            <img src="img/ecrire.png">
-        </div>
-        <div class="padding">
-            <img src="img/telecharger.png">
-        </div>
-        <div class="padding" id="deco-btn">
-            <img src="img/deconexion.png">
-        </div>
-    </div>
+    <form>
+        <input type="image" src="img/scanner.png" alt="Submit" id="scann-btn"><br>
+        <input type="image" src="img/dicter.png" name="sign" alt="Submit" id="dict-btn"><br>
+        <input type="image" src="img/telecharger.png" name="sign" alt="Submit" id="dl-btn"><br>
+        <input type="image" src="img/deconexion.png" name="sign" alt="Submit" id="deco-btn"><br>
+    </form>
+
+
+
 </section>
+
+
+<section id="telecharger">
+    <form method="post" enctype="multipart/form-data">
+        <div>
+            <label for="file">Sélectionner le fichier à envoyer</label><br>
+            <input type="file" id="file" name="file" accept="image/*" >
+        </div>
+        <div>
+            <input type="image" src="img/telecharger.png" name="upload" alt="upload" id="submit-btn"><br>
+        </div>
+    </form>
+
+</section>
+
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
