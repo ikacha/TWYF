@@ -78,7 +78,7 @@ $("#create-btn").click(function(){
     $.ajax({
        url : 'http://127.0.0.1:8000/detail.php',
        data: $("#signup").serialize(),
-
+       method: "POST",
     });
    
 });
