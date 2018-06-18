@@ -6,7 +6,8 @@ $(document).ready(function(){
         $("#menupage").hide();
         $("#connexionpage").hide();
         $("#telecharger").hide();       
-
+        $("#scanpage").hide();
+        $("#dictpage").hide();
     });
 });
 
@@ -17,6 +18,8 @@ $(document).ready(function(){
         $("#menupage").show();
         $("#connexionpage").hide();
         $("#signuppage").hide();
+        $("#scanpage").hide();
+        $("#dictpage").hide();
     });
 });
 
@@ -29,6 +32,8 @@ $(document).ready(function(){
         $("#connexionpage").hide();
         $("#signuppage").hide();
         $("#telecharger").hide();
+        $("#scanpage").show();
+        $("#dictpage").hide();
     });
 });
 $(document).ready(function(){
@@ -38,6 +43,8 @@ $(document).ready(function(){
         $("#connexionpage").hide();
         $("#signuppage").hide();
         $("#telecharger").hide();
+        $("#scanpage").hide();
+        $("#dictpage").show();
     });
 });
 $(document).ready(function(){
@@ -47,6 +54,8 @@ $(document).ready(function(){
         $("#connexionpage").hide();
         $("#signuppage").hide();
         $("#telecharger").show();
+        $("#scanpage").hide();
+        $("#dictpage").hide();
     });
 });
 
@@ -57,5 +66,19 @@ $(document).ready(function(){
         $("#connexionpage").show();
         $("#signuppage").hide();
         $("#telecharger").hide();
+        $("#scanpage").hide();
+        $("#dictpage").hide();
+
     });
+});
+
+
+$("#create-btn").click(function(){
+     
+    $.ajax({
+       url : 'http://127.0.0.1:8000/detail.php',
+       data: $("#signup").serialize(),
+
+    });
+   
 });

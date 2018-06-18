@@ -80,7 +80,7 @@ form input:hover {
 	
 }
 
-#signuppage, #menupage, #telecharger {
+#signuppage, #menupage, #telecharger, #scanpage, #dictpage {
 	display:none;
 }
 
@@ -100,3 +100,7 @@ form input:hover {
 /************telecharger*************/
 /************************************/
 
+
+input#file {
+	opacity: 0;
+}
