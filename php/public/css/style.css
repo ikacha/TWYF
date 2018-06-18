@@ -80,7 +80,7 @@ form input:hover {
 	
 }
 
-#signuppage, #menupage{
+#signuppage, #menupage, #telecharger {
 	display:none;
 }
 
@@ -95,3 +95,8 @@ form input:hover {
 	max-width: 90%;
 	}
 }
+
+/************************************/
+/************telecharger*************/
+/************************************/
+
