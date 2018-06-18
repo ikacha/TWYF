@@ -28,15 +28,15 @@
 </section>
 
 <section id="signuppage">
-    <form method="post" enctype="multipart/form-data">
+    <form method="post" enctype="multipart/form-data" id="signup">
         <label class="formulaire">Pseudo :</label><br>
-        <input class="formcss" type="text" name="name" placeholder="Votre Pseudo"><br>
+        <input class="formcss" type="text" name="pseudo" placeholder="Votre Pseudo"><br>
         <label class="formulaire">Nom :</label><br>
-        <input class="formcss" type="text" name="name" placeholder="Votre Nom"><br>
+        <input class="formcss" type="text" name="nom" placeholder="Votre Nom"><br>
         <label class="formulaire">Prénom :</label><br>
-        <input class="formcss" type="text" name="name" placeholder="Votre Prénom"><br>
+        <input class="formcss" type="text" name="prenom" placeholder="Votre Prénom"><br>
         <label class="formulaire">e-mail :</label><br>
-        <input class="formcss" type="text" name="name" placeholder="Votre e-m@il"><br>
+        <input class="formcss" type="text" name="mail" placeholder="Votre e-m@il"><br>
         <label class="formulaire">Mot de Passe :</label><br>
         <input class="formcss" type="password" name="password" placeholder="Votre Mot de Passe"><br>
         <input type="image" src="img/creer.png" alt="Submit" id="create-btn"><br>
@@ -47,7 +47,7 @@
 <section id="menupage">
     <div id="imgmenu">
     <form>
-        <input type="image" src="img/scanner.png" alt="Submit" id="scann-btn"><br>
+        <input type="image" src="img/scanner.png" alt="Submit" id="scan-btn"><br>
         <input type="image" src="img/dicter.png" name="sign" alt="Submit" id="dict-btn"><br>
         <input type="image" src="img/telecharger.png" name="sign" alt="Submit" id="dl-btn"><br>
         <input type="image" src="img/deconexion.png" name="sign" alt="Submit" id="deco-btn"><br>
@@ -58,11 +58,34 @@
 </section>
 
 
+<section id="scanpage">
+
+
+test
+
+</section>
+
+
+
+<section id="dictpage">
+
+
+    test
+
+</section>
+
+
+
+
+
 <section id="telecharger">
     <form method="post" enctype="multipart/form-data">
         <div>
-            <label for="file">Sélectionner le fichier à envoyer</label><br>
+            <label for="file"> Sélectionner un fichier image et cliquer ensuite sur Télécharger.</label><br>
             <input type="file" id="file" name="file" accept="image/*" >
+           <center><input type="image" src="img/add.png" name="upload" alt="upload" id="add-btn"></center>
+            <br>
+
         </div>
         <div>
             <input type="image" src="img/telecharger.png" name="upload" alt="upload" id="submit-btn"><br>
@@ -70,6 +93,34 @@
     </form>
 
 </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
