@@ -102,5 +102,9 @@ form input:hover {
 
 
 input#file {
-	opacity: 0;
+	display: none;
+}
+
+div#telecharger {
+	width: 20%;
 }

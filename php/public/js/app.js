@@ -1,5 +1,5 @@
 
-$(document).ready(function(){
+
     $("#sign-btn").click(function(e){
         e.preventDefault();
         $("#signuppage").show();
@@ -9,7 +9,7 @@ $(document).ready(function(){
         $("#scanpage").hide();
         $("#dictpage").hide();
     });
-});
+
 
 $(document).ready(function(){
     $("#cnx-btn").click(function(e){
@@ -81,4 +81,34 @@ $("#create-btn").click(function(){
        method: "POST",
     });
    
+});
+
+$("#file").change(function()
+{
+    var nom_fichier = new Array();
+
+    if (this.value)
+    {
+        if ('files' in this)
+        {
+            for (var i = 0; i < this.files.length; i++)
+            {                
+                var file = this.files[i];
+                if ('name' in file)
+                {
+                    var p = document.createElement("p");
+                    var text = document.createTextNode(file.name);
+                    p.appendChild(text);
+                    document.getElementById("conteneur_fichier").appendChild(p);
+                }
+            }
+        }
+    }
+    else
+    {
+        var p = document.createElement("p");
+        var text = document.createTextNode("Veuillez choisir un fichier");
+        p.appendChild(text);
+        document.getElementById("conteneur_fichier").appendChild(p);
+    }
 });
