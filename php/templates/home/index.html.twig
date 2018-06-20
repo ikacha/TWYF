@@ -40,18 +40,20 @@
         <label class="formulaire">Mot de Passe :</label><br>
         <input class="formcss" type="password" name="Mot_de_passe" placeholder="Votre Mot de Passe"><br>
         <input type="image" src="img/creer.png" alt="Submit" id="create-btn"><br>
+        <input type="image" src="img/deconexion.png" name="sign" alt="Submit" id="deco-btn"><br>
     </form>
 </section>
 
 
 <section id="menupage">
     <div id="imgmenu">
-    <form>
-        <input type="image" src="img/scanner.png" alt="Submit" id="scan-btn"><br>
-        <input type="image" src="img/dicter.png" name="sign" alt="Submit" id="dict-btn"><br>
-        <input type="image" src="img/telecharger.png" name="sign" alt="Submit" id="dl-btn"><br>
-        <input type="image" src="img/deconexion.png" name="sign" alt="Submit" id="deco-btn"><br>
-    </form>
+        <form>
+            <input type="image" src="img/scanner.png" alt="Submit" id="scan-btn"><br>
+            <input type="image" src="img/dicter.png" name="sign" alt="Submit" id="dict-btn"><br>
+            <input type="image" src="img/ecrire.png" name="sign" alt="Submit" id="ecrire-btn"><br>
+            <input type="image" src="img/telecharger.png" name="sign" alt="Submit" id="dl-btn"><br>
+            <input type="image" src="img/deconexion.png" name="sign" alt="Submit" id="deco-btn"><br>
+        </form>
 
 
 
@@ -60,17 +62,34 @@
 
 <section id="scanpage">
 
+    <video id="video"></video>
+    <button id="startbutton">Prendre une photo</button>
+    <canvas id="canvas"></canvas>
+    <img src="http://placekitten.com/g/320/261" id="photo" alt="photo">
+    <form>
+        <input type="image" src="img/back.png" name="sign" alt="Submit" id="back-btn"><br>
+    </form>
 
-test
+
+</section>
+
+<section id="ecrirepage">
+
+    <form>
+        <input type="image" src="img/back.png" name="sign" alt="Submit" id="back-btn"><br>
+    </form>
+
 
 </section>
 
 
-
 <section id="dictpage">
 
+    <script src="scripts/speech.js"></script>
+    <form>
+        <input type="image" src="img/back.png" name="sign" alt="Submit" id="back-btn"><br>
+    </form>
 
-    test
 
 </section>
 
@@ -92,35 +111,13 @@ test
         </div>
         <div>
             <input type="image" src="img/telecharger.png" name="upload" alt="upload" id="submit-btn"><br>
+            <input type="image" src="img/back.png" name="sign" alt="Submit" id="back-btn"><br>
+
         </div>
+
     </form>
 
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
