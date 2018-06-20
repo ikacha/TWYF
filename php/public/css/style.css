@@ -80,7 +80,7 @@ form input:hover {
 	
 }
 
-#signuppage, #menupage, #telecharger, #scanpage, #dictpage {
+#signuppage, #menupage, #telecharger, #scanpage, #dictpage, #ecrirepage {
 	display:none;
 }
 
